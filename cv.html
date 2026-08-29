@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Download</title>
+    <link rel="stylesheet" href="cv-styles.css">
+</head>
+<body>
+    <div class="download-buttons">
+        <button class="btn btn-pdf" onclick="downloadPDF()">📄 Download as PDF</button>
+        <button class="btn btn-html" onclick="downloadHTML()">💾 Download as HTML</button>
+        <button class="btn btn-print" onclick="window.print()">🖨️ Print</button>
+    </div>
+
+    <div id="cv-content" class="cv-container">
+        <!-- Header -->
+        <header class="cv-header">
+            <h1>Sokry Ren</h1>
+            <p class="job-title">Professional Title / Job Position</p>
+            <div class="contact-info">
+                <span>📧 sokry.ren@fellow.passerellesnumeriques.org</span>
+                <span>📱 +885 81 468 431</span>
+                <span>📍 Phnom Penh, Cambodia</span>
+                <span>🔗 linkedin.com/in/yourprofile</span>
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section class="cv-section">
+            <h2 class="section-title">Professional Summary</h2>
+            <p>
+                Brief overview of your professional background, key skills, and career objectives. 
+                Highlight your most significant achievements and what makes you unique in your field.
+            </p>
+        </section>
+
+        <!-- Experience -->
+        <section class="cv-section">
+            <h2 class="section-title">Professional Experience</h2>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Senior Developer</h3>
+                    <span class="company">Tech Company Inc.</span>
+                </div>
+                <p class="duration">January 2022 - Present</p>
+                <ul>
+                    <li>Led development of multiple web applications using modern technologies</li>
+                    <li>Mentored junior developers and conducted code reviews</li>
+                    <li>Improved application performance by 40% through optimization</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Full Stack Developer</h3>
+                    <span class="company">Digital Solutions Ltd.</span>
+                </div>
+                <p class="duration">June 2020 - December 2021</p>
+                <ul>
+                    <li>Developed and maintained full-stack web applications</li>
+                    <li>Collaborated with design team to implement UI/UX improvements</li>
+                    <li>Implemented CI/CD pipelines for faster deployment</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Junior Developer</h3>
+                    <span class="company">StartUp Co.</span>
+                </div>
+                <p class="duration">January 2019 - May 2020</p>
+                <ul>
+                    <li>Developed frontend features using React and JavaScript</li>
+                    <li>Fixed bugs and maintained legacy code</li>
+                    <li>Participated in agile development process</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="cv-section">
+            <h2 class="section-title">Education</h2>
+            
+            <div class="education-item">
+                <div class="experience-header">
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <span class="company">University Name</span>
+                </div>
+                <p class="duration">Graduated: May 2018</p>
+                <p>GPA: 3.8/4.0</p>
+            </div>
+
+            <div class="education-item">
+                <div class="experience-header">
+                    <h3>Certifications</h3>
+                    <span class="company">Various Institutions</span>
+                </div>
+                <ul>
+                    <li>AWS Certified Solutions Architect - 2023</li>
+                    <li>Google Cloud Professional Developer - 2022</li>
+                    <li>Scrum Master Certification - 2021</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="cv-section">
+            <h2 class="section-title">Skills</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Frontend</h4>
+                    <p>React, Vue.js, Angular, HTML5, CSS3, JavaScript/TypeScript</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Backend</h4>
+                    <p>Node.js, Python, Java, SQL, MongoDB, PostgreSQL</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Tools & Platforms</h4>
+                    <p>Git, Docker, AWS, Jenkins, VS Code, Jira</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Soft Skills</h4>
+                    <p>Project Management, Communication, Problem Solving, Team Leadership</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="cv-section">
+            <h2 class="section-title">Notable Projects</h2>
+            
+            <div class="project-item">
+                <h3>E-Commerce Platform</h3>
+                <p class="duration">2023</p>
+                <p>
+                    Built a full-stack e-commerce platform using React, Node.js, and MongoDB. 
+                    Implemented payment integration, inventory management, and user authentication.
+                </p>
+            </div>
+
+            <div class="project-item">
+                <h3>Real-time Analytics Dashboard</h3>
+                <p class="duration">2022</p>
+                <p>
+                    Developed a real-time analytics dashboard processing 1M+ events daily. 
+                    Used WebSocket for live updates and D3.js for data visualization.
+                </p>
+            </div>
+        </section>
+
+        <!-- Languages -->
+        <section class="cv-section">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+                <li>English - Fluent</li>
+                <li>Spanish - Intermediate</li>
+                <li>French - Basic</li>
+            </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer class="cv-footer">
+            <p>References available upon request</p>
+        </footer>
+    </div>
+
+    <script src="cv-script.js"></script>
+</body>
+</html>

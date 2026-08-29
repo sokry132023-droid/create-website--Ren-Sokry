@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sokry Ren — Web Programming Student portfolio">
+    <title>Sokry Ren | Web Programming Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a href="#home" class="brand" aria-label="Sokry Ren home"><span>SR</span> Sokry Ren</a>
+            <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><i
+                    data-lucide="menu"></i></button>
+            <nav class="main-nav" aria-label="Primary navigation">
+                <a href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a
+                    href="#projects">Projects</a><a href="#career">Career</a><a href="#interview">Interview</a><a
+                    href="#experience">Experience</a><a href="#achievements">Achievements</a><a
+                    href="#contact">Contact</a>
+            </nav>
+            <button class="theme-toggle" type="button" aria-label="Switch to night mode" aria-pressed="false">
+                <i data-lucide="moon"></i>
+            </button>
+            <button class="button button-small button-outline cv-link" onclick="downloadCVMenu()" aria-label="Download CV"><i
+                    data-lucide="download"></i> Download CV</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-grid-bg"></div>
+            <div class="container hero-inner">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow"><span class="eyebrow-line"></span> Open to learning & opportunities</p>
+                    <h1>Hi, I'm <em>Sokry</em><br>Ren<span class="dot">.</span></h1>
+                    <p class="hero-role">Web Programming Student</p>
+                    <p class="hero-intro">I am a passionate student learning web development and building creative
+                        digital projects.</p>
+                    <div class="hero-actions"><a href="#projects" class="button button-primary">View My Projects <i
+                                data-lucide="arrow-up-right"></i></a><a href="#contact" class="text-link">Contact Me <i
+                                data-lucide="arrow-down-right"></i></a></div>
+                    <div class="hero-meta"><span><strong>PNC</strong> Passerelles Numériques
+                            Cambodia</span><span><strong>WEP C</strong> Generation 2027</span></div>
+                </div>
+                <div class="hero-visual reveal reveal-delay">
+                    <div class="hero-logo" aria-hidden="true">SR</div>
+                    <div class="code-window">
+                        <div class="window-top"><span
+                                class="window-dots"><b></b><b></b><b></b></span><span>about-sokry.js</span><i
+                                data-lucide="ellipsis"></i></div>
+                        <div class="code-lines"><span><small>01</small> <b>const</b> developer =
+                                {</span><span><small>02</small> &nbsp; name: <mark>'Sokry
+                                    Ren'</mark>,</span><span><small>03</small> &nbsp; focus: <mark>'web
+                                    development'</mark>,</span><span><small>04</small> &nbsp; learning: [<mark>'UI
+                                    design'</mark>,</span><span><small>05</small> &nbsp;&nbsp;
+                                <mark>'software'</mark>],</span><span><small>06</small> &nbsp; status: <mark>'growing
+                                    daily'</mark></span><span><small>07</small> };</span><span><small>08</small>
+                                <b>return</b> developer;</span></div>
+                                
+                    </div>
+                    <div class="portrait-wrap">
+                        <div class="portrait-ring"></div><img
+                            src="img/photo_2026-04-26_20-41-41.jpg"
+                            alt="Professional portrait placeholder for Sokry Ren">
+                        <div class="portrait-label"><span class="status-dot"></span> Available for opportunities</div>
+                    </div>
+                    <div class="floating-note note-top"><i data-lucide="sparkles"></i><span>Curious<br><strong>by
+                                nature</strong></span></div>
+                    <div class="floating-note note-bottom"><span class="mini-icon">{
+                            }</span><span>Building<br><strong>with purpose</strong></span></div>
+                </div>
+            </div><a href="#about" class="scroll-cue"><span>Scroll to explore</span><i data-lucide="arrow-down"></i></a>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="container about-grid">
+                <div class="section-intro reveal">
+                    <p class="kicker">01 / About me</p>
+                    <h2>Making ideas<br><em>useful.</em></h2>
+                    <div class="about-photo"><img
+                            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+                            alt="Students collaborating at a table"><span>Learning through<br>real projects</span></div>
+                </div>
+                <div class="about-content reveal reveal-delay">
+                    <p class="lead">I am Sokry Ren, a Web Programming student at Passerelles Numériques Cambodia. I am
+                        interested in web development, software development, UI design, and technology.</p>
+                    <p>I enjoy learning new programming skills and creating useful digital projects. For me, the best
+                        work sits at the intersection of thoughtful design, clear code, and a real need worth solving.
+                    </p>
+                    <div class="interest-list">
+                        <div><span class="interest-icon"><i data-lucide="layout-template"></i></span><b>Web
+                                development</b><small>Building for the browser</small></div>
+                        <div><span class="interest-icon"><i data-lucide="pen-tool"></i></span><b>UI
+                                design</b><small>Simple, human interfaces</small></div>
+                        <div><span class="interest-icon"><i data-lucide="lightbulb"></i></span><b>Problem
+                                solving</b><small>Curiosity into solutions</small></div>
+                    </div>
+                    <blockquote>“Technology becomes meaningful when it makes someone's day a little easier.”
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section education-section section-dark">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="kicker">02 / Education</p>
+                    <h2>A foundation for<br><em>what's next.</em></h2>
+                </div>
+                <div class="education-timeline">
+                    <div class="education-item featured reveal">
+                        <div class="timeline-marker">01</div>
+                        <div class="education-card">
+                            <div class="card-top"><span class="tag">Current education</span><span>2025 — 2027</span>
+                            </div>
+                            <h3>Passerelles Numériques Cambodia <span>(PNC)</span></h3>
+                            <p class="degree">Web Programming · Class WEP C · Generation 2027</p>
+                            <p>Practical training in front-end development, programming fundamentals, databases,
+                                collaboration, and professional readiness.</p>
+                            <div class="education-tools"><span>Web development</span><span>Professional
+                                    skills</span><span>Project-based</span></div>
+                        </div>
+                    </div>
+                    <div class="education-item reveal">
+                        <div class="timeline-marker">02</div>
+                        <div class="education-card placeholder-card">
+                            <div class="card-top"><span class="tag tag-muted">Previous
+                                    education</span><span>Editable</span></div>
+                            <h3>Your previous school</h3>
+                            <p>Add your secondary school, dates, and a short note about what you learned here.</p><a
+                                href="#contact" class="small-link">Update this detail <i
+                                    data-lucide="arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-heading split-heading reveal">
+                    <div>
+                        <p class="kicker">03 / Skills</p>
+                        <h2>Tools I use to<br><em>keep growing.</em></h2>
+                    </div>
+                    <p>Every project is a chance to sharpen a skill, ask a better question, and make the next idea
+                        clearer.</p>
+                </div>
+                <div class="skills-layout">
+                    <div class="skill-panel reveal">
+                        <div class="panel-title"><span>01</span>
+                            <h3>Technical skills</h3>
+                        </div>
+                        <div class="skill-grid">
+                            <div class="skill"><span>HTML</span><i>Structure</i></div>
+                            <div class="skill"><span>CSS</span><i>Visuals</i></div>
+                            <div class="skill"><span>JavaScript</span><i>Interaction</i></div>
+                            <div class="skill"><span>Python</span><i>Logic</i></div>
+                            <div class="skill"><span>Bootstrap</span><i>Framework</i></div>
+                            <div class="skill"><span>SQL</span><i>Data</i></div>
+                            <div class="skill"><span>Git & GitHub</span><i>Workflow</i></div>
+                            <div class="skill"><span>SASS</span><i>Styling</i></div>
+                        </div>
+                    </div>
+                    <div class="skill-panel soft-panel reveal reveal-delay">
+                        <div class="panel-title"><span>02</span>
+                            <h3>Soft skills</h3>
+                        </div>
+                        <ul class="soft-list">
+                            <li><span>Communication</span><b>↗</b></li>
+                            <li><span>Teamwork</span><b>↗</b></li>
+                            <li><span>Problem solving</span><b>↗</b></li>
+                            <li><span>Time management</span><b>↗</b></li>
+                            <li><span>Creativity</span><b>↗</b></li>
+                            <li><span>Adaptability</span><b>↗</b></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects-section section-ink">
+            <div class="container">
+                <div class="section-heading split-heading reveal">
+                    <div>
+                        <p class="kicker">04 / Selected projects</p>
+                        <h2>Ideas made<br><em>visible.</em></h2>
+                    </div><a href="https://github.com/" target="_blank" rel="noreferrer"
+                        class="text-link light-link">View GitHub profile <i data-lucide="arrow-up-right"></i></a>
+                </div>
+                <div class="project-grid">
+                    <article class="project-card project-large reveal">
+                        <div class="project-image"><img
+                                src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80"
+                                alt="Coffee shop interior placeholder"><span class="project-number">01</span></div>
+                        <div class="project-info">
+                            <div>
+                                <h3>Coffee Shop Website</h3>
+                                <p>A warm, welcoming digital home for a neighborhood coffee shop.</p>
+                            </div>
+                            <div class="project-bottom"><span>HTML · CSS · JavaScript</span><span
+                                    class="project-actions"><a href="#contact" aria-label="View Coffee Shop Website"><i
+                                            data-lucide="arrow-up-right"></i></a><a href="https://github.com/"
+                                        target="_blank" rel="noreferrer" aria-label="Coffee Shop GitHub"><i
+                                            data-lucide="code-2"></i></a></span></div>
+                        </div>
+                    </article>
+                    <article class="project-card reveal reveal-delay">
+                        <div class="project-image"><img
+                                src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80"
+                                alt="Clothing rack placeholder"><span class="project-number">02</span></div>
+                        <div class="project-info">
+                            <h3>Clothing Store Website</h3>
+                            <p>A clean shopping experience for a modern clothing brand.</p>
+                            <div class="project-bottom"><span>Bootstrap · SASS</span><span class="project-actions"><a
+                                        href="#contact" aria-label="View Clothing Store Website"><i
+                                            data-lucide="arrow-up-right"></i></a><a href="https://github.com/"
+                                        target="_blank" rel="noreferrer" aria-label="Clothing Store GitHub"><i
+                                            data-lucide="code-2"></i></a></span></div>
+                        </div>
+                    </article>
+                    <article class="project-card reveal">
+                        <div class="project-image"><img
+                                src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80"
+                                alt="Classroom placeholder"><span class="project-number">03</span></div>
+                        <div class="project-info">
+                            <h3>Education System Website</h3>
+                            <p>Organizing learning resources into a clearer digital system.</p>
+                            <div class="project-bottom"><span>HTML · CSS · SQL</span><span class="project-actions"><a
+                                        href="#contact" aria-label="View Education System Website"><i
+                                            data-lucide="arrow-up-right"></i></a><a href="https://github.com/"
+                                        target="_blank" rel="noreferrer" aria-label="Education System GitHub"><i
+                                            data-lucide="code-2"></i></a></span></div>
+                        </div>
+                    </article>
+                    <article class="project-card reveal">
+                        <div class="project-image"><img
+                                src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=900&q=80"
+                                alt="Healthy food placeholder"><span class="project-number">04</span></div>
+                        <div class="project-info">
+                            <h3>Food App UI</h3>
+                            <p>Exploring an intuitive, friendly interface for food discovery.</p>
+                            <div class="project-bottom"><span>UI design · Bootstrap</span><span
+                                    class="project-actions"><a href="#contact" aria-label="View Food App UI"><i
+                                            data-lucide="arrow-up-right"></i></a><a href="https://github.com/"
+                                        target="_blank" rel="noreferrer" aria-label="Food App GitHub"><i
+                                            data-lucide="code-2"></i></a></span></div>
+                        </div>
+                    </article>
+                    <article class="project-card reveal">
+                        <div class="project-image"><img
+                                src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=900&q=80"
+                                alt="Design workspace placeholder"><span class="project-number">05</span></div>
+                        <div class="project-info">
+                            <h3>Personal Portfolio</h3>
+                            <p>A living record of my learning, work, and next steps.</p>
+                            <div class="project-bottom"><span>HTML · CSS · JavaScript</span><span
+                                    class="project-actions"><a href="#home" aria-label="View Personal Portfolio"><i
+                                            data-lucide="arrow-up-right"></i></a><a href="https://github.com/"
+                                        target="_blank" rel="noreferrer" aria-label="Portfolio GitHub"><i
+                                            data-lucide="code-2"></i></a></span></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="career" class="section career-section">
+            <div class="container career-grid">
+                <div class="section-intro reveal">
+                    <p class="kicker">05 / Career direction</p>
+                    <h2>Building toward<br><em>software.</em></h2>
+                    <p class="muted-copy">The kind of work I want to grow into, one thoughtful project at a time.</p>
+                </div>
+                <div class="career-card reveal reveal-delay">
+                    <div class="career-card-head"><span class="career-icon"><i data-lucide="terminal"></i></span><span
+                            class="tag">Career goal</span>
+                        <h3>Software Developer</h3>
+                        <p>Design, build, and improve software that helps people accomplish something meaningful.</p>
+                    </div>
+                    <div class="career-columns">
+                        <div>
+                            <h4>Main responsibilities</h4>
+                            <ul>
+                                <li>Build and maintain web applications</li>
+                                <li>Translate ideas into clear solutions</li>
+                                <li>Collaborate with a product team</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Growing toward</h4>
+                            <ul>
+                                <li>Stronger JavaScript and Python</li>
+                                <li>Reliable, accessible interfaces</li>
+                                <li>Confident technical communication</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="career-footer"><span>Technical skills <b>HTML · CSS · JS · Python ·
+                                SQL</b></span><span>Soft skills <b>Curiosity · teamwork · resilience</b></span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="interview" class="section interview-section section-blue">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="kicker">06 / Interview experience</p>
+                    <h2>Learning from<br><em>real stories.</em></h2>
+                </div>
+                <div class="interview-layout">
+                    <div class="interview-intro reveal"><span class="quote-mark">“</span>
+                        <p>Conversations with people in the field help me see the path ahead with more clarity.</p>
+                        <div class="interviewee">
+                            <div class="avatar-placeholder">IP</div><span><b>Interviewee profile</b><small>Editable
+                                    placeholder · Professional profile</small></span>
+                        </div>
+                    </div>
+                    <div class="qa-list reveal reveal-delay">
+                        <details open>
+                            <summary><span>01</span> Tell us about your background <i data-lucide="plus"></i></summary>
+                            <p>Use this space to add the interviewee's educational background, working experience, and
+                                journey into technology.</p>
+                        </details>
+                        <details>
+                            <summary><span>02</span> What skills matter most? <i data-lucide="plus"></i></summary>
+                            <p>Capture the technical and soft skills that came up in the conversation, plus examples of
+                                how they are used at work.</p>
+                        </details>
+                        <details>
+                            <summary><span>03</span> What challenges did they face? <i data-lucide="plus"></i></summary>
+                            <p>Add a meaningful challenge, the approach used to overcome it, and the advice shared for
+                                students.</p>
+                        </details>
+                        <details>
+                            <summary><span>04</span> Key lessons learned <i data-lucide="plus"></i></summary>
+                            <p>Record the most useful insight from the interview and one action you want to take next.
+                            </p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section experience-section">
+            <div class="container">
+                <div class="section-heading split-heading reveal">
+                    <div>
+                        <p class="kicker">07 / Work experience</p>
+                        <h2>Practice makes<br><em>progress.</em></h2>
+                    </div>
+                    <p>Experience is also built in classrooms, teams, community work, and the small responsibilities we
+                        choose to own.</p>
+                </div>
+                <div class="experience-list">
+                    <article class="experience-item reveal">
+                        <div class="experience-date">01 <span>Editable</span></div>
+                        <div>
+                            <h3>Internship placement</h3>
+                            <p class="company">Organization name · Date range</p>
+                            <p>Add responsibilities, what you contributed, and the skills gained through this
+                                internship.</p>
+                        </div><span class="experience-arrow">↗</span>
+                    </article>
+                    <article class="experience-item reveal">
+                        <div class="experience-date">02 <span>School</span></div>
+                        <div>
+                            <h3>School projects</h3>
+                            <p class="company">Passerelles Numériques Cambodia · 2025 — present</p>
+                            <p>Building websites and applications while practicing planning, implementation, and
+                                iteration.</p>
+                        </div><span class="experience-arrow">↗</span>
+                    </article>
+                    <article class="experience-item reveal">
+                        <div class="experience-date">03 <span>Team</span></div>
+                        <div>
+                            <h3>Team projects & volunteering</h3>
+                            <p class="company">Organization name · Date range</p>
+                            <p>Add teamwork, volunteer activities, and the practical skills you developed alongside
+                                others.</p>
+                        </div><span class="experience-arrow">↗</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="section achievements-section section-dark">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="kicker">08 / Achievements</p>
+                    <h2>Small wins,<br><em>real momentum.</em></h2>
+                </div>
+                <div class="achievement-grid">
+                    <article class="achievement-card reveal"><span class="achievement-icon"><i
+                                data-lucide="award"></i></span><span class="achievement-index">01</span>
+                        <h3>Certificates</h3>
+                        <p>Add certifications and learning milestones as you earn them.</p>
+                    </article>
+                    <article class="achievement-card reveal reveal-delay"><span class="achievement-icon"><i
+                                data-lucide="star"></i></span><span class="achievement-index">02</span>
+                        <h3>School achievements</h3>
+                        <p>Highlight moments you are proud of from your studies.</p>
+                    </article>
+                    <article class="achievement-card reveal"><span class="achievement-icon"><i
+                                data-lucide="code-2"></i></span><span class="achievement-index">03</span>
+                        <h3>Programming projects</h3>
+                        <p>Show the work that helped you move from theory to practice.</p>
+                    </article>
+                    <article class="achievement-card reveal reveal-delay"><span class="achievement-icon"><i
+                                data-lucide="presentation"></i></span><span class="achievement-index">04</span>
+                        <h3>Presentations</h3>
+                        <p>Record opportunities to explain ideas and share your work.</p>
+                    </article>
+                    <article class="achievement-card reveal"><span class="achievement-icon"><i
+                                data-lucide="users"></i></span><span class="achievement-index">05</span>
+                        <h3>Teamwork</h3>
+                        <p>Celebrate the collaboration behind successful outcomes.</p>
+                    </article>
+                    <article class="achievement-card reveal reveal-delay"><span class="achievement-icon"><i
+                                data-lucide="trophy"></i></span><span class="achievement-index">06</span>
+                        <h3>Competitions</h3>
+                        <p>Leave room for contests, challenges, and future wins.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container contact-grid">
+                <div class="contact-copy reveal">
+                    <p class="kicker">09 / Contact</p>
+                    <h2>Let's start a<br><em>conversation.</em></h2>
+                    <p>Whether you have an opportunity, a question, or just want to say hello, my inbox is open.</p>
+                    <div class="contact-details"><a href="mailto:sokry.ren@fellow.passerellesnumeriques.org"><span class="detail-icon"><i
+                                    data-lucide="mail"></i></span><span><small>Email</small>sokry.ren@fellow.passerellesnumeriques.org</span></a><a
+                            href="tel:+85500000000"><span class="detail-icon"><i
+                                    data-lucide="phone"></i></span><span><small>Phone</small>+855 81 468
+                                431</span></a><a href="https://github.com/" target="_blank" rel="noreferrer"><span
+                                class="detail-icon"><i
+                                    data-lucide="code-2"></i></span><span><small>GitHub</small>github.com/your-username</span></a><a
+                            href="https://t.me/Rsokry" target="_blank" rel="noreferrer"><span class="detail-icon"><i
+                                    data-lucide="network"></i></span><span><small>Telegram</small>t.me/Rsokry</span></a>
+                    </div>
+                </div>
+                <form class="contact-form reveal reveal-delay">
+                    <div class="form-row"><label>Name<input type="text" placeholder="Your name"
+                                required></label><label>Email<input type="email" placeholder="sokry.ren@fellow.passerellesnumeriques.org"
+                                required></label></div><label>Subject<input type="text"
+                            placeholder="What would you like to talk about?"></label><label>Message<textarea rows="5"
+                            placeholder="Write your message here..." required></textarea></label><button type="submit"
+                        class="button button-primary">Send Message <i data-lucide="arrow-up-right"></i></button>
+                    <p class="form-status" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-inner"><a href="#home" class="brand"><span>SR</span> Sokry Ren</a>
+            <p>Learning. Building. Becoming.</p>
+            <p>© 2026 Sokry Ren</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
